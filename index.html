@@ -1,359 +1,420 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Wenetflix</title>
-		<link rel="stylesheet" href="./css/bootstrap.css" />
-		<link rel="stylesheet" href="./css/style.css" />
-		<link rel="stylesheet" href="./css/swiper.css" />
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-		/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wenetflix</title>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/swiper.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
 
-		<script src="./js/swiper.js"></script>
-		<script src="./js/popper.js"></script>
-		<script src="./js/bootstrap.js"></script>
-	</head>
-	<body>
-		<header>
-			<nav class="navbar navbar-expand-sm">
-				<div class="container-fluid">
-					<a class="navbar-brand" href="#">
-						<img width="50" src="./img/logo-white.png" alt="logo" />
-					</a>
-					<button
-						class="navbar-toggler"
-						type="button"
-						data-bs-toggle="collapse"
-						data-bs-target="#navbarSupportedContent"
-						aria-controls="navbarSupportedContent"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
-					>
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav me-auto mb-2 mb-lg-0 list-navbar">
-							<li class="nav-item">
-								<a class="nav-link" aria-current="page" href="#">Inicio</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Top 10</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Nosotros</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Contacto</a>
-							</li>
-						</ul>
-						<form class="d-flex" role="search">
-							<input
-								class="form-control me-2"
-								type="search"
-								placeholder="Busca tu pélicula"
-								aria-label="Search"
-							/>
-							<button class="btn btn-netflix" type="submit">Buscar</button>
-						</form>
-					</div>
-				</div>
-			</nav>
-		</header>
-		<main>
-			<section class="box-banner">
-				<div class="box-info">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
-						quisquam officia fugit?
-					</p>
-					<button class="btn btn-netflix mt-3">Más información</button>
-				</div>
-			</section>
-			<section class="box-carousel">
-				<div class="swiper box-swiper">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<span class="number-swiper">1</span>
-							<img class="imgSlider" src="./img/recursos/1.jpg" alt="top" />
-						</div>
-						<div class="swiper-slide">
-							<span class="number-swiper">2</span>
-							<img class="imgSlider" src="./img/recursos/2.jpg" alt="top" />
-						</div>
-						<div class="swiper-slide">
-							<span class="number-swiper">3</span>
-							<img class="imgSlider" src="./img/recursos/3.jpg" alt="top" />
-						</div>
-						<div class="swiper-slide">
-							<span class="number-swiper">4</span>
-							<img class="imgSlider" src="./img/recursos/4.jpg" alt="top" />
-						</div>
-						<div class="swiper-slide">
-							<span class="number-swiper">5</span>
-							<img class="imgSlider" src="./img/recursos/5.jpg" alt="top" />
-						</div>
-						<div class="swiper-slide">
-							<span class="number-swiper">6</span>
-							<img class="imgSlider" src="./img/recursos/6.jpg" alt="top" />
-						</div>
-						<div class="swiper-slide">
-							<span class="number-swiper">7</span>
-							<img class="imgSlider" src="./img/recursos/7.jpg" alt="top" />
-						</div>
-						<div class="swiper-slide">
-							<span class="number-swiper">8</span>
-							<img class="imgSlider" src="./img/recursos/8.jpg" alt="top" />
-						</div>
-						<div class="swiper-slide">
-							<span class="number-swiper">9</span>
-							<img class="imgSlider" src="./img/recursos/9.jpg" alt="top" />
-						</div>
-						<div class="swiper-slide">
-							<span class="number-swiper">10</span>
-							<img class="imgSlider" src="./img/recursos/10.jpg" alt="top" />
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="about">
-				<div class="row">
-					<div class="col-6">
-						<div
-							class="d-flex justify-content-center align-items-center w-100 h-100"
-						>
-							<div class="box-text">
-								<h3>Lorem ipsum dolor sit amet.</h3>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-								quis velit, assumenda vero ex nemo culpa voluptatum dignissimos
-								vel ipsa id fuga error? Ad cumque magnam, ducimus deleniti amet
-								sint.
-							</div>
-						</div>
-					</div>
-					<div class="col-6">
-						<img
-							class="d-block w-100"
-							src="./img/recursos/about.jpg"
-							alt="alt"
-						/>
-					</div>
-				</div>
-			</section>
-			<section class="movies">
-				<div class="continer">
-					<ul class="nav justify-content-center my-3">
-						<li class="nav-item">
-							<button class="btn btn-netflix">Top</button>
-						</li>
-						<li class="nav-item">
-							<button class="btn btn-link">Acción</button>
-						</li>
-						<li class="nav-item">
-							<button class="btn btn-link">Aventura</button>
-						</li>
-						<li class="nav-item">
-							<button class="btn btn-link">Anime</button>
-						</li>
-					</ul>
-				</div>
-				<div class="box-movies container">
-					<div class="box-card">
-						<div class="box-rating">
-							<img class="icon-star" src="./img/iconos/star.png" alt="" />
-							<span>2</span>
-						</div>
-						<img class="screen-movie" src="./img/recursos/11.jpg" alt="top" />
-					</div>
-					<div class="box-card">
-						<div class="box-rating">
-							<img class="icon-star" src="./img/iconos/star.png" alt="" />
-							<span>2</span>
-						</div>
-						<img class="screen-movie" src="./img/recursos/12.jpg" alt="top" />
-					</div>
-					<div class="box-card">
-						<div class="box-rating">
-							<img class="icon-star" src="./img/iconos/star.png" alt="" />
-							<span>2</span>
-						</div>
-						<img class="screen-movie" src="./img/recursos/13.jpg" alt="top" />
-					</div>
-					<div class="box-card">
-						<div class="box-rating">
-							<img class="icon-star" src="./img/iconos/star.png" alt="" />
-							<span>2</span>
-						</div>
-						<img class="screen-movie" src="./img/recursos/14.jpg" alt="top" />
-					</div>
-					<div class="box-card">
-						<div class="box-rating">
-							<img class="icon-star" src="./img/iconos/star.png" alt="" />
-							<span>2</span>
-						</div>
-						<img class="screen-movie" src="./img/recursos/15.jpg" alt="top" />
-					</div>
-					<div class="box-card">
-						<div class="box-rating">
-							<img class="icon-star" src="./img/iconos/star.png" alt="" />
-							<span>2</span>
-						</div>
-						<img class="screen-movie" src="./img/recursos/16.jpg" alt="top" />
-					</div>
-					<div class="box-card">
-						<div class="box-rating">
-							<img class="icon-star" src="./img/iconos/star.png" alt="" />
-							<span>2</span>
-						</div>
-						<img class="screen-movie" src="./img/recursos/17.jpg" alt="top" />
-					</div>
-					<div class="box-card">
-						<div class="box-rating">
-							<img class="icon-star" src="./img/iconos/star.png" alt="" />
-							<span>2</span>
-						</div>
-						<img class="screen-movie" src="./img/recursos/18.jpg" alt="top" />
-					</div>
-				</div>
-			</section>
-			<section class="plans ">
-				<h1 class="text-center">Choose a plan</h1>
-				<p class="text-center mb-3">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-				</p>
-				<div class="box-price container my-4">
-					<div class="row">
-						<div class="col-2 ">
-							<div class="h-100 flex-center">
-								<h4 class="">Start</h4>
-							</div>
-						</div>
-						<div class="col-5 border-end">
-							<div class="h-100 d-flex align-items-center">
-								<ul class="ps-3">
-									<li>
-										<i class="fa-solid fa-check text-white pe-3"></i> Complete
-										files
-									</li>
-									<li>
-										<i class="fa-solid fa-check text-white pe-3"></i> 10gb cloud
-										storage
-									</li>
-									<li>
-										<i class="fa-solid fa-check text-white pe-3"></i> 5 team
-										members
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-3 text-center ">
-							<div class="price-info">
-								<p class="title-caption">Lorem ipsum.</p>
-								<p class="title-price">9.90 $</p>
-								<p class="title-type mt-1">/ Month</p>
-							</div>
-						</div>
-						<div class="col-2 ">
-							<div class="flex-center h-100">
-								<button class="btn btn-netflix">Comprar</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="box-price container my-4 bg-wenetflix">
-					<div class="row">
-						<div class="col-2 ">
-							<div class="h-100 flex-center">
-								<h4 class="">PRO</h4>
-							</div>
-						</div>
-						<div class="col-5 border-end">
-							<div class="h-100 d-flex align-items-center">
-								<ul class="ps-3">
-									<li>
-										<i class="fa-solid fa-check text-white pe-3"></i> Complete
-										files
-									</li>
-									<li>
-										<i class="fa-solid fa-check text-white pe-3"></i> 10gb cloud
-										storage
-									</li>
-									<li>
-										<i class="fa-solid fa-check text-white pe-3"></i> 5 team
-										members
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-3 text-center ">
-							<div class="price-info">
-								<p class="title-caption text-white">Lorem ipsum.</p>
-								<p class="title-price">9.90 $</p>
-								<p class="title-type mt-1">/ Month</p>
-							</div>
-						</div>
-						<div class="col-2 ">
-							<div class="flex-center h-100">
-								<button class="btn btn-light">Comprar</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="box-price container my-4">
-					<div class="row">
-						<div class="col-2 ">
-							<div class="h-100 flex-center">
-								<h4 class="">Business</h4>
-							</div>
-						</div>
-						<div class="col-5 border-end">
-							<div class="h-100 d-flex align-items-center">
-								<ul class="ps-3">
-									<li>
-										<i class="fa-solid fa-check text-white pe-3"></i> Complete
-										files
-									</li>
-									<li>
-										<i class="fa-solid fa-check text-white pe-3"></i> 10gb cloud
-										storage
-									</li>
-									<li>
-										<i class="fa-solid fa-check text-white pe-3"></i> 5 team
-										members
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-3 text-center ">
-							<div class="price-info">
-								<p class="title-caption">Lorem ipsum.</p>
-								<p class="title-price">9.90 $</p>
-								<p class="title-type mt-1">/ Month</p>
-							</div>
-						</div>
-						<div class="col-2 ">
-							<div class="flex-center h-100">
-								<button class="btn btn-netflix">Comprar</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<br /><br /><br /><br /><br />
-		</main>
-		<footer></footer>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/popper.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/main.js"></script>
+  </head>
+  <body id="home">
+    <header>
+      <nav class="navbar navbar-expand-md fixed-top" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img width="60" src="./img/logo-white.png" alt="logo" />
+          </a>
+          <button
+            class="btn bg-white btn-sm me-2 d-block d-md-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 list-navbar">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#top">Top 10</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#movies">Películas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#plans">Planes</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Busca tu pélicula"
+                aria-label="Search"
+              />
+              <button class="btn btn-netflix" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="box-banner">
+        <div class="box-info">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
+            quisquam officia fugit?
+          </p>
+          <button class="btn btn-netflix mt-3">Más información</button>
+        </div>
+      </section>
+      <section class="box-carousel" id="top">
+        <div class="swiper box-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <span class="number-swiper">1</span>
+              <img class="imgSlider" src="./img/recursos/1.jpg" alt="top" />
+            </div>
+            <div class="swiper-slide">
+              <span class="number-swiper">2</span>
+              <img class="imgSlider" src="./img/recursos/2.jpg" alt="top" />
+            </div>
+            <div class="swiper-slide">
+              <span class="number-swiper">3</span>
+              <img class="imgSlider" src="./img/recursos/3.jpg" alt="top" />
+            </div>
+            <div class="swiper-slide">
+              <span class="number-swiper">4</span>
+              <img class="imgSlider" src="./img/recursos/4.jpg" alt="top" />
+            </div>
+            <div class="swiper-slide">
+              <span class="number-swiper">5</span>
+              <img class="imgSlider" src="./img/recursos/5.jpg" alt="top" />
+            </div>
+            <div class="swiper-slide">
+              <span class="number-swiper">6</span>
+              <img class="imgSlider" src="./img/recursos/6.jpg" alt="top" />
+            </div>
+            <div class="swiper-slide">
+              <span class="number-swiper">7</span>
+              <img class="imgSlider" src="./img/recursos/7.jpg" alt="top" />
+            </div>
+            <div class="swiper-slide">
+              <span class="number-swiper">8</span>
+              <img class="imgSlider" src="./img/recursos/8.jpg" alt="top" />
+            </div>
+            <div class="swiper-slide">
+              <span class="number-swiper">9</span>
+              <img class="imgSlider" src="./img/recursos/9.jpg" alt="top" />
+            </div>
+            <div class="swiper-slide">
+              <span class="number-swiper">10</span>
+              <img class="imgSlider" src="./img/recursos/10.jpg" alt="top" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="row">
+          <div class="col-12 col-md-6 order-2">
+            <img
+              class="d-block w-100"
+              src="./img/recursos/about.jpg"
+              alt="alt"
+            />
+          </div>
+          <div class="col-12 col-md-6 order-1">
+            <div
+              class="d-flex justify-content-center align-items-center w-100 h-100"
+            >
+              <div class="box-text">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                quis velit, assumenda vero ex nemo culpa voluptatum dignissimos
+                vel ipsa id fuga error? Ad cumque magnam, ducimus deleniti amet
+                sint.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="movies" id="movies">
+        <div class="continer">
+          <ul class="nav justify-content-center my-3">
+            <li class="nav-item">
+              <button class="btn btn-netflix">Top</button>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-link">Acción</button>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-link">Aventura</button>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-link">Anime</button>
+            </li>
+          </ul>
+        </div>
+        <div class="box-movies container">
+          <div class="box-card">
+            <div class="box-rating">
+              <img class="icon-star" src="./img/iconos/star.png" alt="" />
+              <span>2</span>
+            </div>
+            <img class="screen-movie" src="./img/recursos/11.jpg" alt="top" />
+            <div class="hover-content">
+              <h4>Título de la pélicula</h4>
+              <p>Año: 2023</p>
+              <p>
+                Descripción: Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Molestiae, delectus atque ducimus nesciunt quia labore
+                quasi ipsam animi ea quibusdam eaque amet pariatur facere
+                repudiandae quis nihil tempora recusandae esse.
+              </p>
+            </div>
+          </div>
+          <div class="box-card">
+            <div class="box-rating">
+              <img class="icon-star" src="./img/iconos/star.png" alt="" />
+              <span>2</span>
+            </div>
+            <img class="screen-movie" src="./img/recursos/12.jpg" alt="top" />
+          </div>
+          <div class="box-card">
+            <div class="box-rating">
+              <img class="icon-star" src="./img/iconos/star.png" alt="" />
+              <span>2</span>
+            </div>
+            <img class="screen-movie" src="./img/recursos/13.jpg" alt="top" />
+          </div>
+          <div class="box-card">
+            <div class="box-rating">
+              <img class="icon-star" src="./img/iconos/star.png" alt="" />
+              <span>2</span>
+            </div>
+            <img class="screen-movie" src="./img/recursos/14.jpg" alt="top" />
+          </div>
+          <div class="box-card">
+            <div class="box-rating">
+              <img class="icon-star" src="./img/iconos/star.png" alt="" />
+              <span>2</span>
+            </div>
+            <img class="screen-movie" src="./img/recursos/15.jpg" alt="top" />
+          </div>
+          <div class="box-card">
+            <div class="box-rating">
+              <img class="icon-star" src="./img/iconos/star.png" alt="" />
+              <span>2</span>
+            </div>
+            <img class="screen-movie" src="./img/recursos/16.jpg" alt="top" />
+          </div>
+          <div class="box-card">
+            <div class="box-rating">
+              <img class="icon-star" src="./img/iconos/star.png" alt="" />
+              <span>2</span>
+            </div>
+            <img class="screen-movie" src="./img/recursos/17.jpg" alt="top" />
+          </div>
+          <div class="box-card">
+            <div class="box-rating">
+              <img class="icon-star" src="./img/iconos/star.png" alt="" />
+              <span>2</span>
+            </div>
+            <img class="screen-movie" src="./img/recursos/18.jpg" alt="top" />
+          </div>
+        </div>
+      </section>
+      <section class="plans" id="plans">
+        <h1 class="text-center">Choose a plan</h1>
+        <p class="text-center mb-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <div class="box-price container my-4">
+          <div class="row">
+            <div class="col-12 col-md-2">
+              <div class="h-100 flex-center">
+                <h4 class="">Start</h4>
+              </div>
+            </div>
+            <div class="col-12 col-md-5 border-end">
+              <div class="h-100 d-flex align-items-center">
+                <ul class="ps-3">
+                  <li>
+                    <i class="fa-solid fa-check text-white pe-3"></i> Complete
+                    files
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check text-white pe-3"></i> 10gb cloud
+                    storage
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check text-white pe-3"></i> 5 team
+                    members
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-8 col-md-3 text-md-center mt-4 mt-md-0">
+              <div class="price-info">
+                <p class="title-caption">Lorem ipsum.</p>
+                <p class="title-price">9.90 $</p>
+                <p class="title-type mt-1">/ Month</p>
+              </div>
+            </div>
+            <div class="col-4 col-md-2 mt-4 mt-md-0">
+              <div class="flex-center h-100">
+                <button class="btn btn-netflix">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box-price container my-4 bg-wenetflix">
+          <div class="row">
+            <div class="col-3 col-md-2">
+              <div class="h-100 flex-center">
+                <h4 class="">PRO</h4>
+              </div>
+            </div>
+            <div class="col-9 col-md-5 border-end">
+              <div class="h-100 d-flex align-items-center">
+                <ul class="ps-3">
+                  <li>
+                    <i class="fa-solid fa-check text-white pe-3"></i> Complete
+                    files
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check text-white pe-3"></i> 10gb cloud
+                    storage
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check text-white pe-3"></i> 5 team
+                    members
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-8 col-md-3 text-md-center mt-4 mt-md-0">
+              <div class="price-info">
+                <p class="title-caption text-white">Lorem ipsum.</p>
+                <p class="title-price">9.90 $</p>
+                <p class="title-type mt-1">/ Month</p>
+              </div>
+            </div>
+            <div class="col-4 col-md-2 mt-4 mt-md-0">
+              <div class="flex-center h-100">
+                <button class="btn btn-light">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box-price container my-4">
+          <div class="row">
+            <div class="col-3 col-md-2">
+              <div class="h-100 flex-center">
+                <h4 class="">Business</h4>
+              </div>
+            </div>
+            <div class="col-9 col-md-5 border-end">
+              <div class="h-100 d-flex align-items-center">
+                <ul class="ps-3">
+                  <li>
+                    <i class="fa-solid fa-check text-white pe-3"></i> Complete
+                    files
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check text-white pe-3"></i> 10gb cloud
+                    storage
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check text-white pe-3"></i> 5 team
+                    members
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-8 col-md-3 text-md-center mt-4 mt-md-0">
+              <div class="price-info">
+                <p class="title-caption">Lorem ipsum.</p>
+                <p class="title-price">9.90 $</p>
+                <p class="title-type mt-1">/ Month</p>
+              </div>
+            </div>
+            <div class="col-4 col-md-2 mt-4 mt-md-0">
+              <div class="flex-center h-100">
+                <button class="btn btn-netflix">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="box-footer">
+      <div class="row px-1 px-md-5">
+        <div class="col-12 col-md-4 col-lg-6">
+          <div
+            class="d-flex justify-content-center justify-content-md-start align-items-center h-100"
+          >
+            <img width="100" src="./img/logo-white.png" alt="logo" />
+          </div>
+        </div>
+        <div class="col-12 col-md-8 col-lg-6">
+          <div class="d-flex justify-content-center mt-4 mt-md-0 h-100">
+            <ul class="d-flex listFooter">
+              <li>
+                <a href="">Incio</a>
+              </li>
+              <li>
+                <a href="">Top 10</a>
+              </li>
+              <li>
+                <a href="">Nosotros</a>
+              </li>
+              <li>
+                <a href="">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-4"><hr /></div>
+      <div class="row px-5">
+        <div class="col-12 col-md-6">
+          <div class="text-center text-md-start">
+            <p>Venta de cuentas estables</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div
+            class="d-flex justify-content-center justify-content-md-end mt-4 mt-md-0"
+          >
+            <div class="box-redes">
+              <img src="./img/iconos/twitter.svg" alt="twitter" />
+            </div>
+            <div class="box-redes">
+              <img src="./img/iconos/facebook.svg" alt="facebook" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-		<script>
-			document.addEventListener("DOMContentLoaded", function () {
-				const swiper = new Swiper(".swiper", {
-					freeMode: true,
-					loop: true,
-					slidesPerView: 3,
-					spaceBetween: 30
-				})
-			})
-		</script>
-	</body>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const swiper = new Swiper(".swiper", {
+          freeMode: true,
+          loop: true,
+          slidesPerView: 3,
+          spaceBetween: 30,
+        });
+      });
+    </script>
+  </body>
 </html>
