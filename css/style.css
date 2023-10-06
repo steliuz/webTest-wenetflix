@@ -54,8 +54,9 @@ ul {
 .box-banner {
   background: linear-gradient(to top, #141414 10%, rgba(24, 24, 24, 0.2)),
     url("../img/recursos/banner-3.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center ;
   height: calc(100vh - 64px);
   height: 500px;
   background-color: red;
